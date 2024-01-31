@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Update Result</title>
+</head>
+<body>
+<h1>User Update Result</h1>
+
+<h2>User Data Before Update:</h2>
+<p>ID: <span th:text="${userBeforeUpdate.id}"></span></p>
+<p>Username: <span th:text="${userBeforeUpdate.username}"></span></p>
+<p>First Name: <span th:text="${userBeforeUpdate.firstname}"></span></p>
+<p>Last Name: <span th:text="${userBeforeUpdate.lastname}"></span></p>
+<p>Age: <span th:text="${userBeforeUpdate.age}"></span></p>
+
+<h2>User Data After Update:</h2>
+<p>ID: <span th:text="${userAfterUpdate.id}"></span></p>
+<p>Username: <span th:text="${userAfterUpdate.username}"></span></p>
+<p>First Name: <span th:text="${userAfterUpdate.firstname}"></span></p>
+<p>Last Name: <span th:text="${userAfterUpdate.lastname}"></span></p>
+<p>Age: <span th:text="${userAfterUpdate.age}"></span></p>
+
+<!-- Здесь можно добавить дополнительное форматирование и стилизацию -->
+</body>
+</html>

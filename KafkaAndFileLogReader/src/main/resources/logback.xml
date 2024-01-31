@@ -1,0 +1,11 @@
+<configuration>
+    <!-- Конфигурация для уровня логирования Kafka Consumer -->
+    <logger name="org.apache.kafka.clients.consumer.internals.AbstractFetch" level="INFO" />
+
+    <!-- Другие настройки логирования -->
+
+    <root level="INFO">
+        <!-- Корневая конфигурация для уровня логирования по умолчанию -->
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
